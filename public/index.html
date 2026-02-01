@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Auth System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h2 id="title">Login</h2>
+
+      <input id="name" type="text" placeholder="Name" class="hidden" />
+      <input id="email" type="email" placeholder="Email" />
+      <input id="password" type="password" placeholder="Password" />
+
+      <button id="submitBtn">Login</button>
+      <button id="profileBtn" class="ghost hidden">Go to Profile</button>
+
+
+
+      <p class="switch">
+        <span id="switchText">Don't have an account?</span>
+        <button id="switchBtn">Register</button>
+      </p>
+
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

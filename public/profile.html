@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="topline">
+        <h2>Your Profile</h2>
+        <span class="badge" id="statusBadge">session</span>
+      </div>
+
+      <div class="profileBox">
+        <p class="label">Name</p>
+        <p class="value" id="pName">—</p>
+
+        <p class="label">Email</p>
+        <p class="value" id="pEmail">—</p>
+
+        <p class="label">User ID</p>
+        <p class="value mono" id="pId">—</p>
+      </div>
+
+      <div class="row">
+        <button id="refreshBtn" class="ghost">Refresh</button>
+        <button id="logoutBtn">Logout</button>
+      </div>
+
+      <p id="pMsg"></p>
+      <p class="hint">Tip: profile is protected. If you log out, refresh will return 401.</p>
+    </div>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>
